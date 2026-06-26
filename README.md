@@ -73,32 +73,6 @@ const seunghyun = {
 
 ---
 
-### 🚀 Featured Work
-
-> Selected projects from real industrial POCs. Client names and proprietary data are omitted — these describe **what I built and how**.
-
-#### 🏭 Industrial Digital Twin — *real-time 3D plant in the browser*
-A full plant rendered live in WebGL: cinematic **drone fly-through** intro (gimbal-stabilized camera path), **PBR-textured equipment** for a photoreal look, and **volumetric steam** via ray-marching. Equipment state streams in from the simulation backend.
-<br/>`React Three Fiber` · `Three.js` · `GLSL` · `Next.js`
-
-#### ⚗️ Process Simulation Studio — *DWSIM, on the web*
-A browser front-end over a chemical-process simulator. Runs **distillation columns, liquid-phase reactors, and decanter phase-separation** with **UNIQUAC** thermodynamics, executing live simulations and streaming results back to an interactive 3D/flow UI.
-<br/>`DWSIM` · `pythonnet` · `FastAPI` · `Next.js`
-
-#### 🧩 Auto-Mesh & Structural Analysis — *CAE without the desktop*
-Upload a **STEP/STL** → **automatic meshing** → **equiangle-skew** quality metrics with "show only bad elements" + auto-repair, then a **static-stiffness** solve via **CalculiX** (Abaqus-compatible). Surface / volume / stiffness modes, all in a web app.
-<br/>`Gmsh` · `PyVista` · `CalculiX` · `FastAPI`
-
-#### 🤝 Negotiation AI Assistant — *strategy, scored in advance*
-A procurement-negotiation copilot: an **MCTS strategy game-tree** that explores buyer/supplier scenarios with rollback, grounded on live pricing data, plus **voice transcription** (gpt-4o-transcribe) for hands-free capture.
-<br/>`MCTS` · `OpenAI` · `LangChain` · `Next.js`
-
-#### 🔎 Multimodal Data-Lake Search — *find by content, not filename*
-Search across an enterprise data lake by **file content and image**, blending computer vision and LLM retrieval over heterogeneous engineering documents.
-<br/>`OpenCV` · `LangChain` · `FastAPI` · `SQLAlchemy`
-
----
-
 ### 📊 GitHub Stats
 
 <div align="center">
